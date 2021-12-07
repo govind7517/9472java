@@ -1,1 +1,14 @@
 
+public class AlpCase {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stuethod stub
+      String name ="AFILIATE";
+      String lstring =name.toLowerCase();
+      System.out.println(lstring);
+
+
+	}
+
+}
+
