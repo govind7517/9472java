@@ -88,7 +88,7 @@ public class MyClass {
 
 //      PRACTICAL : TYPECASTING
 
-//Write a programme for narrowing down 10.46 and 7.89. Show the output.
+//[a] Write a programme for narrowing down 10.46 and 7.89. Show the output.
 
 public class MyClass {
 
@@ -99,6 +99,27 @@ public class MyClass {
 		
 		System.out.println(myDouble);
 		System.out.println(myInt);
+
+
+	}
+
+}
+
+
+//      PRACTICAL : TYPECASTING
+
+//[b] Write a programme for widening the value 10 and 7. Show the output.
+
+public class MyClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int myInt = 10;
+		double myDouble = myInt;
+
+		System.out.println(myInt);
+		System.out.println(myDouble);
 
 
 	}
