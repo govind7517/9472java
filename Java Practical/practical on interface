@@ -1,0 +1,30 @@
+
+//    PRACTICAL : INTERFACE 
+
+/*Write a programme for the object girl and the value of it int c=9. Show the resulting outputs. 
+*/ 
+
+
+package com.govind;
+import java.io.*;
+
+interface in1{
+	final int a =9;
+	void display();
+}
+ class TestClass implements in1 {
+	 public void display(){
+		System.out.println("boy"); 
+	 }
+ 
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+   TestClass t =new TestClass();
+   t.display();
+	System.out.println(a); 
+
+	}
+
+	}
