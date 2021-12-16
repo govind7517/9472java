@@ -1,4 +1,4 @@
-//java programmme to illustrate creating an array
+//[1] java programme to illustrate creating an array
 
 public class Array1 {
 
@@ -23,7 +23,7 @@ public class Array1 {
 
 }
 
-// java programme to illustrate creating an array of object.
+//[2] java programme to illustrate creating an array of object.
 
 class Student{
 	
@@ -54,3 +54,61 @@ public class TestArrayDemo {
 	}
 
 }
+
+//[3] Write a programme for narrowing for value 9.78. Show the output.
+
+public class MyClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double myDouble = 9.78;
+		int myInt = (int) myDouble;
+		
+		System.out.println(myDouble);
+		System.out.println(myInt);
+
+
+	}
+
+}
+
+//[4] Write a programme for widening the value 9. Show the output.
+
+public class MyClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int myInt = 9;
+		double myDouble = myInt;
+
+		System.out.println(myInt);
+		System.out.println(myDouble);
+
+
+	}
+
+}
+
+
+//[5] java programming to demonstrate unboxing.
+
+import java.util.ArrayList;
+public class Unboxing {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Character ch = 'a';
+		char a = ch;
+		
+		ArrayList<Integer> arrayList = new ArrayList<Integer>();
+		arrayList.add(24);
+		
+		int num = arrayList.get(0);
+		
+		System.out.println(num);
+
+}
+
+}
+
