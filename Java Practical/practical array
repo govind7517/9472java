@@ -1,1 +1,21 @@
+//[a] write the single array programme by assigning array integer value 25 ,89 and 100.
+
+public class SingleDimensionArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] a = new int[3];
+		
+		a[0] = 25;
+		a[1] = 89;
+		a[2] = 100;
+		
+		for(int i=0; i<a.length; i++) {
+			System.out.println(a[i]);
+		}
+	
+
+	}
+
+}
 
