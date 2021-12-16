@@ -126,3 +126,39 @@ public class MyClass {
 
 }
 
+
+
+//     PRACTICAL : LOOPS (FOR LOOP)
+
+//[a] rite the same programme for i=10 and i16. Show the output
+
+public class FoorLoopExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		for(int i=10; i>6; i--){
+			System.out.println("The value of i is: "+i);
+	
+		}
+		
+
+	}
+
+}
+
+//[b] Write the do while loop programme for i=11 and i>3.
+
+public class DoWhileLoopExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int i=11;
+		do{
+			System.out.println(i);
+			i--;
+
+		}while(i>3);
+
+}
+
+}
