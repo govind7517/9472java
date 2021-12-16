@@ -66,3 +66,42 @@ interface in1{
 
 	}
 
+//      PRACTICAL : TYPECASTING
+
+//Write a programme for narrowing down 10.46 and 7.89. Show the output.
+
+public class MyClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double myDouble = 10.46;
+		int myInt = (int) myDouble;
+		
+		System.out.println(myDouble);
+		System.out.println(myInt);
+
+
+	}
+
+}
+
+
+//      PRACTICAL : TYPECASTING
+
+//Write a programme for narrowing down 10.46 and 7.89. Show the output.
+
+public class MyClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double myDouble = 10.46;
+		int myInt = (int) myDouble;
+		
+		System.out.println(myDouble);
+		System.out.println(myInt);
+
+
+	}
+
+}
+
