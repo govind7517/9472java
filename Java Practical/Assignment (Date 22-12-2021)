@@ -1,0 +1,157 @@
+//1
+public class PrimitiveDataType {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int i = 100;
+		long I = i;
+		float f = I;
+		
+		System.out.println("int value: "+i);
+		System.out.println("long value: "+I);
+		System.out.println("float value: "+f);
+
+		
+	}
+
+}
+
+
+//2
+ public class DataTyppe {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		int num = 88;
+		 char ch = (char)num;
+		}
+}
+
+//3
+public class DataType2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method 
+		
+					char ch = 'c';
+			int num = 88;
+				ch = (char)num;
+			}
+		}
+
+//4
+public class DataType3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method 
+						double d = 100.04;
+						long l = (long)d;
+						int i = (int)l;
+						System.out.println("Double value " + d);
+						System.out.println("Long value " + l);
+						System.out.println("Int value " + i);
+					}
+				}
+
+//5
+public class DataType4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method 
+			
+						byte b;
+						int i = 257;
+						double d = 323.142;
+						System.out.println("Conversion of int to byte.");
+				( i % 256);
+						b = (byte)i;
+						System.out.println("i = " + i + " b = " + b);
+						System.out.println(
+							"\nConversion of double to byte.");
+						b = (byte)d;
+						System.out.println("d = " + d + " b= " + b);
+					}
+				}
+
+//6
+class GFG {
+	public static void main(String args[])
+	{
+		byte b = 42;
+		char c = 'a';
+		short s = 1024;
+		int i = 50000;
+		float f = 5.67f;
+		double d = .1234;
+		double result = (f * b) + (i / c) - (d * s);
+		System.out.println("result = " + result);
+	}
+}
+
+//7
+class GFG {
+	public static void main(String args[])
+	{
+		byte b = 50;
+		b = (byte)(b * 2);
+		System.out.println(b);
+	}
+}
+
+//8
+public class GFG {
+	public static void main(String[] args)
+{
+		
+		int[] arr = { 13, 7, 6, 45, 21, 9, 101, 102 };
+		Arrays.sort(arr);
+		System.out.println("Modified arr[] : %s",
+						Arrays.toString(arr));
+	}
+}
+
+
+
+//9
+import java.util.Arrays;
+import java.util.Collections;
+
+// Main class
+public class GFG {
+	
+	// Main driver method
+public static void main(String[] args)
+	{
+		String arr[] = { "practice.geeksforgeeks.org",
+						"quiz.geeksforgeeks.org",
+						"code.geeksforgeeks.org" };
+		Arrays.sort(arr);
+		System.out.println("Modified arr[] : \n%s\n\n",
+						Arrays.toString(arr));
+		Arrays.sort(arr, Collections.reverseOrder());
+		System.out.println("Modified arr[] : \n%s\n\n",
+						Arrays.toString(arr));
+	}
+}
+
+//10
+import java.util.*;
+public class Collectionsorting
+{
+	public static void main(String[] args)
+	{
+		
+		ArrayList<String> al = new ArrayList<String>();
+		al.add("Geeks For Geeks");
+		al.add("Friends");
+		al.add("Dear");
+		al.add("Is");
+		al.add("Superb");
+		Collections.sort(al);
+		System.out.println("List after the use of" +
+						" Collection.sort() :\n" + al);
+	}
+}
