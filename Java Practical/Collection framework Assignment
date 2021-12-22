@@ -1,0 +1,148 @@
+// Priority Queue
+
+import java.util.*;
+public class PriorityQueueCollection {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		PriorityQueue<String> queue = new PriorityQueue<String>();
+		
+		queue.add("Amit Shah");
+		queue.add("RAGA");
+		queue.add("Modi");
+		queue.add("Jignesh");
+		
+		//System.out.println("Head :"+queue.element());
+		//System.out.println("Head :"+queue.peek());
+		//System.out.println("iterating the queue element");
+		
+		Iterator itr = queue.iterator();
+		
+		while(itr.hasNext()) {
+			System.out.println(itr.next());
+		}
+		
+		queue.remove();
+		queue.poll();
+		System.out.println("after removing two element");
+		
+		Iterator<String> itr2 =queue.iterator();
+		while(itr2.hasNext()) {
+			System.out.println(itr2.next());
+
+		}
+
+
+
+	}
+
+}
+
+// Stack
+
+import java.util.*;
+public class StackCollection {
+
+	public static void main(String[] args) {		// TODO Auto-generated method stub
+		
+		Stack<String> stack = new Stack<String>();
+		stack.push("Jonathan");
+		stack.push("Carter");
+		stack.push("Adolf");
+		stack.push("Hitler");
+		stack.push("jonathan");
+
+		
+		stack.pop();
+		
+		Iterator<String> itr=stack.iterator();
+		
+		while(itr.hasNext()) {
+			System.out.println(itr.next());
+		}
+
+}
+}
+
+// Vector
+
+import java.util.*;
+
+public class VectorCollection {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Vector<String> v = new Vector<String>();
+		
+		v.add("Ritesh");
+		v.add("Badal");
+		v.add("Janu");
+		v.add("monika");
+		
+	Iterator<String> itr=v.iterator();
+	
+	while(itr.hasNext()) {
+		System.out.println(itr.next());
+	}
+
+		
+
+	}
+
+}
+
+
+//ArrayList
+
+package govind.com;
+
+import java.util.*;
+public class ArrayList4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ArrayList<String> list = new ArrayList<String>();
+		list.add("Dhanu");
+		list.add("Ganu");
+		list.add("Ravi");
+		list.add("Ramesh");
+		
+		Iterator itr = list.iterator();
+		
+		while(itr.hasNext()) {
+			System.out.println(itr.next());
+		}
+		                    
+
+
+	}
+
+}
+
+// Linked List
+
+import java.util.*;
+public class ListedList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		LinkedList<String> al=new LinkedList<String>();
+		
+		al.add("Alex");
+		al.add("Haden");
+		al.add("Walse");
+		al.add("Junior");
+		
+		Iterator<String>itr =al.iterator();
+		while(itr.hasNext()) {
+			System.out.println(itr.next());
+		}
+
+
+	}
+
+}
