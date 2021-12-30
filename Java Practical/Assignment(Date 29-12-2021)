@@ -17,7 +17,7 @@ public class Multithread1 extends Thread {
 	}
 
 }
-
+output:thread is exicuting...
 
 // 2
 
@@ -64,7 +64,8 @@ public class TestThread3 {
 	}
 
 }
-
+output: Shutdown executor
+        shutdown finished
 
 // 3
 
@@ -131,7 +132,27 @@ class Consumer implements Runnable{
         }  
     }  
 }
-
+output: Produced: 0
+Produced: 1
+Produced: 2
+Produced: 3
+Produced: 4
+Produced: 5
+Produced: 6
+Produced: 7
+Produced: 8
+Produced: 9
+Consumed: 0
+Consumed: 1
+Consumed: 2
+Consumed: 3
+Consumed: 4
+Consumed: 5
+Consumed: 6
+Consumed: 7
+Consumed: 8
+Consumed: 9
+ 
 
 // 4
 
@@ -206,6 +227,12 @@ public class TestThread {
       }  
    }  
 }
+output: Added: 112
+Removed: 112
+Added: 9
+Removed: 9
+Added: 35
+Removed: 35
 
 // 5
 
@@ -235,7 +262,8 @@ public class TestThread {
       }  
    }  
 }
-
+output: Running Thread!
+Thread Completed
 
 // 6
 
@@ -250,3 +278,4 @@ public static void main (String[] args) {
       setDaemon(true);   
    }  
 }
+output: Running thread is daemon...
