@@ -28,7 +28,8 @@ public final class ImmutableStringDemo {
 	}
 
 }
-
+Output: Hello
+        
 
 //MUTABLE STRING
 
@@ -65,3 +66,5 @@ public class MutableDemo {
 	}
 
 }
+Output: hello2
+        new hello2
