@@ -34,3 +34,8 @@ public class CompileTimePolymorphismDemo {
 	}
 
 }
+/*Output : Method1 :80
+Method2 :7560
+Method3 :6.0
+ans is :6.0
+*/
